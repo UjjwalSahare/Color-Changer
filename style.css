@@ -1,0 +1,67 @@
+body {
+    transition: background-color 0.5s ease;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh; /* Make the body at least the height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.nav {
+    background-color: #333;
+    padding: 1rem;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    position: fixed; /* Fix position at the top */
+    top: 0; /* Stick to the top */
+    left: 0; /* Align to left */
+}
+
+.heading {
+    text-align: center;
+    margin-top: 60px; /* Add space on top to not overlap with the fixed navbar */
+}
+
+.btn button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none; /* Remove default border */
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.para {
+    text-align: center; /* Center the paragraph text */
+}
+
+.para span {
+    font-weight: bold;
+}
